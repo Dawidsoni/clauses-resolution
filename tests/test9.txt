@@ -1,0 +1,3 @@
+[p v q v r v s, ~p v ~q v ~r, ~p v ~q v ~s, ~q v ~r v ~s].
+
+false.

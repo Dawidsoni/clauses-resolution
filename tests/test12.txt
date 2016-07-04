@@ -1,0 +1,5 @@
+[ x6
+, ~input_a_0 v ~input_a_0 v ~x6
+, ~input_a_0 v input_a_0 v x6
+, input_a_0 v ~input_a_0 v x6
+, input_a_0 v input_a_0 v ~x6 ].

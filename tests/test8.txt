@@ -1,0 +1,50 @@
+[p v q v r v s, ~p, ~q, ~r, ~s].
+
+1.  p v q v r v s  (axiom)
+2.  ~p             (axiom)
+3.  ~q             (axiom)
+4.  ~r             (axiom)
+5.  ~s             (axiom)
+6.  p v q v r      (1,5)
+7.  p v q          (4,6)
+8.  p              (3,7)
+9.  []             (2,8)
+
+true ;
+
+1.  p v q v r v s  (axiom)
+2.  ~p             (axiom)
+3.  ~q             (axiom)
+4.  ~r             (axiom)
+5.  ~s             (axiom)
+6.  p v q v r      (1,5)
+7.  p v q          (4,6)
+8.  q              (2,7)
+9.  []             (3,8)
+
+true ;
+
+1.  p v q v r v s  (axiom)
+2.  ~p             (axiom)
+3.  ~q             (axiom)
+4.  ~r             (axiom)
+5.  ~s             (axiom)
+6.  p v q v r      (1,5)
+7.  p v r          (3,6)
+8.  r              (2,7)
+9.  []             (4,8)
+
+true ;
+
+1.  p v q v r v s  (axiom)
+2.  ~p             (axiom)
+3.  ~q             (axiom)
+4.  ~r             (axiom)
+5.  ~s             (axiom)
+6.  p v q v s      (1,4)
+7.  p v s          (3,6)
+8.  s              (2,7)
+9.  []             (5,8)
+
+true ;
+false.

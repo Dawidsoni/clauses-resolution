@@ -1,0 +1,62 @@
+[ p v r, ~r v ~s, q v s, q v r, ~p v ~q, s v p ].
+
+ 1.  p v r    (axiom)
+ 2.  ~r v ~s  (axiom)
+ 3.  q v s    (axiom)
+ 4.  q v r    (axiom)
+ 5.  ~p v ~q  (axiom)
+ 6.  s v p    (axiom)
+ 7.  q v ~s   (2,4)
+ 8.  p v ~r   (2,6)
+ 9.  p        (1,8)
+10.  q        (3,7)
+11.  ~p       (5,10)
+12.  []       (9,11)
+
+true ;
+
+ 1.  p v r    (axiom)
+ 2.  ~r v ~s  (axiom)
+ 3.  q v s    (axiom)
+ 4.  q v r    (axiom)
+ 5.  ~p v ~q  (axiom)
+ 6.  s v p    (axiom)
+ 7.  r v ~p   (4,5)
+ 8.  s v ~q   (5,6)
+ 9.  r        (1,7)
+10.  s        (3,8)
+11.  ~r       (2,10)
+12.  []       (9,11)
+
+true ;
+
+ 1.  p v r    (axiom)
+ 2.  ~r v ~s  (axiom)
+ 3.  q v s    (axiom)
+ 4.  q v r    (axiom)
+ 5.  ~p v ~q  (axiom)
+ 6.  s v p    (axiom)
+ 7.  q v ~s   (2,4)
+ 8.  p v ~r   (2,6)
+ 9.  p        (1,8)
+10.  q        (3,7)
+11.  ~q       (5,9)
+12.  []       (10,11)
+
+true ;
+
+ 1.  p v r    (axiom)
+ 2.  ~r v ~s  (axiom)
+ 3.  q v s    (axiom)
+ 4.  q v r    (axiom)
+ 5.  ~p v ~q  (axiom)
+ 6.  s v p    (axiom)
+ 7.  r v ~p   (4,5)
+ 8.  s v ~q   (5,6)
+ 9.  r        (1,7)
+10.  s        (3,8)
+11.  ~s       (2,9)
+12.  []       (10,11)
+
+true ;
+false.

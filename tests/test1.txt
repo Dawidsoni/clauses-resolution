@@ -1,0 +1,8 @@
+[p, ~p].
+
+
+1.  p   (axiom)
+2.  ~p  (axiom)
+3.  []  (1,2)
+true ;
+false.
