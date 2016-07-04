@@ -1,1 +1,8 @@
-# clauses-resolution
+# Clauses resolution
+
+## Sample usage:
+
+Run theorem prover in Prolog with:
+
+`main('tests/test1.txt').`
+
