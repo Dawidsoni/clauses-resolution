@@ -1,4 +1,4 @@
-# Clauses resolution
+# Theorem prover
 
 ## Sample usage:
 
